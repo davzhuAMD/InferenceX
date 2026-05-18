@@ -2660,3 +2660,10 @@
     - "Update SGLang image from v0.5.9-rocm700-mi30x to v0.5.12-rocm700-mi30x"
     - "Workaround LlamaTokenizer.all_special_tokens_extended removal in newer transformers: prefer backend_request_func.get_tokenizer over vLLM's"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1428
+
+- config-keys:
+    - dsr1-fp4-b200-sglang
+  description:
+    - "Update SGLang image from v0.5.11-cu130 to v0.5.12-cu130"
+    - "Temporarily disable agentic-coding scenario (blocked by e2e-tests.yml artifact-name mismatch)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1415
