@@ -3609,3 +3609,13 @@
     - "8 topologies sweeping low-latency (1p1d-tp8-tp8) through max throughput (6p1d-dep8-dep12)."
     - "Updated 1p1d and 2p1d configs to match https://github.com/shyeh25/srt-slurm/commit/ede724d7cc9a780be5b84659f599733bf9fd0097"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1675
+
+- config-keys:
+    - glm5-fp4-b200-sglang
+    - glm5-fp4-b200-sglang-mtp
+    - glm5-fp8-b200-sglang
+    - glm5-fp8-b200-sglang-mtp
+  description:
+    - "Update SGLang image from v0.5.12-cu130 to nightly-dev-cu13-20260605-7dc73766"
+    - "glm5-fp4-b200-sglang-mtp: override --mem-fraction-static from 0.85 to 0.8 when ISL=8192, OSL=1024, and CONC>128 (default 0.85 elsewhere)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1567
