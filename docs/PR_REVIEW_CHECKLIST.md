@@ -11,7 +11,7 @@ When [CODEOWNER](https://github.com/SemiAnalysisAI/InferenceX/blob/main/.github/
 We welcome InferenceX partners & the community to submit PRs for reasonable additions to this checklist — or deletions — that follow the principles of InferenceX, and the general principle that deleting a guideline should be as easy a process as adding a new one.
 
 ## Template
-
+```
 As a PR reviewer and CODEOWNER, I have reviewed this and have:
 - [ ] Verified that as of the moment of typing this, this is the latest version of [PR_REVIEW_CHECKLIST.md](https://github.com/SemiAnalysisAI/InferenceX/edit/main/docs/PR_REVIEW_CHECKLIST.md)
 - [ ] Verified that the general code quality meets the InferenceX standard and does not make the code quality any worse.
@@ -29,6 +29,7 @@ As a PR reviewer and CODEOWNER, I have reviewed this and have:
 - insert any additional info here
 
 Signed: `FILL_IN_GITHUB_USERNAME`
+```
 
 ## Example
 
