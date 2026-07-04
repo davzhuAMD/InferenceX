@@ -13,7 +13,7 @@
 > **重要：模板请保持英文原文，原样复制粘贴，不要翻译。** CI 签署验证工作流 [`codeowner-signoff-verify.yml`](https://github.com/SemiAnalysisAI/InferenceX/blob/main/.github/workflows/codeowner-signoff-verify.yml) 通过开头语句 "As a PR reviewer and CODEOWNER, I have reviewed this and have" 触发；模板被改写或翻译后，签署验证 CI 将不会触发。
 
 ## 模板（请复制英文原文）
-
+```
 As a PR reviewer and CODEOWNER, I have reviewed this and have:
 - [ ] Verified that as of the moment of typing this, this is the latest version of [PR_REVIEW_CHECKLIST.md](https://github.com/SemiAnalysisAI/InferenceX/edit/main/docs/PR_REVIEW_CHECKLIST.md)
 - [ ] Verified that the general code quality meets the InferenceX standard and does not make the code quality any worse.
@@ -31,7 +31,7 @@ As a PR reviewer and CODEOWNER, I have reviewed this and have:
 - insert any additional info here
 
 Signed: `FILL_IN_GITHUB_USERNAME`
-
+```
 ## 各条目中文对照说明
 
 1. 已确认在填写此清单时，使用的是 [PR_REVIEW_CHECKLIST.md](https://github.com/SemiAnalysisAI/InferenceX/blob/main/docs/PR_REVIEW_CHECKLIST.md) 的最新版本。
