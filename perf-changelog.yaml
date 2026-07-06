@@ -4543,3 +4543,10 @@
     - "Update image tag to nightly"
     - "Update B200 MTP search space"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/2007
+
+- config-keys:
+    - minimaxm3-fp4-b300-vllm-mtp
+  description:
+    - "Update image tag to nightly"
+    - "Update B300 MTP search space"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/2006
