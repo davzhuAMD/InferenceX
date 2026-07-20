@@ -13,4 +13,5 @@ export PREFILL_NODE="45.63.71.103"
 export DECODE_NODE="137.220.60.12"
 export PREFILL_TP=4
 export DECODE_TP=8
+export CONC_LIST="32"
 bash "${_IX_ROOT}/run_1p1d_sglang_mi300_mi325x.sh"

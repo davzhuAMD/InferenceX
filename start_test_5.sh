@@ -18,4 +18,5 @@ export PREFILL_TP=8
 export DECODE_TP=16
 export DECODE_EP=16
 export DECODE_DP_ATTN=true
+export CONC_LIST="32"
 bash "${_IX_ROOT}/run_1p1d_tp16_sglang_mi300_mi325x.sh"

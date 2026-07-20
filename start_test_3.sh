@@ -12,9 +12,8 @@ export PATH_TO_BNXT_TAR_PACKAGE=/workspace/driver/libbnxt_re-237.1.137.0.tar.gz
 export PREFILL_NODE="45.63.71.103"
 export DECODE_NODE="137.220.60.12"
 export PREFILL_TP=4
-export PREFILL_EP=4
-export PREFILL_DP_ATTN=true
 export DECODE_TP=8
 export DECODE_EP=8
 export DECODE_DP_ATTN=true
+export CONC_LIST="32"
 bash "${_IX_ROOT}/run_1p1d_sglang_mi300_mi325x.sh"

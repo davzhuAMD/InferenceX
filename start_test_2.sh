@@ -13,7 +13,8 @@ export USE_SUDO_FOR_DOCKER=0
 
 export PREFILL_NODE="45.63.71.103"
 export DECODE_NODE_1="137.220.60.12"
-export DECODE_NODE_2="207.148.10.255"
+export DECODE_NODE_2="144.202.59.123"
 export PREFILL_TP=8
 export DECODE_TP=8
+export CONC_LIST="32"
 bash "${_IX_ROOT}/run_1p2d_sglang_mi300_mi325x.sh"
